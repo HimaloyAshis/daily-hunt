@@ -6,7 +6,7 @@ const inTotal = document.getElementById('total')
 
 inTotal.addEventListener('click', ()=>{
 
-    worker.postMessage('worker please work for me')
+    worker.postMessage('worker please working for me')
 
 })
 
