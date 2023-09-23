@@ -8,8 +8,12 @@ inTotal.addEventListener('click', ()=>{
 
     worker.postMessage('worker please work for me')
 
-    // console.log(`total ${total}`)
 })
+
+worker.onmessage = (message)=>{
+    
+    console.log(`total ${message.data}`)
+}
 
 
 
