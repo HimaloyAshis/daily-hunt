@@ -12,7 +12,7 @@ inTotal.addEventListener('click', ()=>{
 
 worker.onmessage = (message)=>{
     
-    console.log(`total ${message.data}`)
+    console.log(`total amount ${message.data}`)
 }
 
 
