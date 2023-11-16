@@ -42,6 +42,22 @@ li:nth-child(2n+1){
     background: #dddd;
 }
 
-.special::after{
-    content: ' hello vaisab';
+.container, .inner{
+    width: 120px;
+    height: 120px;
+    border: 2px solid darkcyan;
+    
 }
+
+.container{
+    background-color: aquamarine;
+    
+}
+
+.inner:hover{
+    background-color: blanchedalmond;
+    transform:translate(50px, 50px) scale(0.6) rotate(50deg) ;
+}
+
+
+
