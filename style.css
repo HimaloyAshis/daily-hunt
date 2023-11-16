@@ -29,3 +29,15 @@
     z-index: 1;
     
 }
+
+li:first-child{
+    color: chocolate;
+}
+
+li:last-child{
+    color: darksalmon;
+}
+
+li:nth-child(2n){
+    background: #dddd;
+}
