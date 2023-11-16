@@ -38,6 +38,10 @@ li:last-child{
     color: darksalmon;
 }
 
-li:nth-child(2n){
+li:nth-child(2n+1){
     background: #dddd;
+}
+
+.special::after{
+    content: ' hello vaisab';
 }
