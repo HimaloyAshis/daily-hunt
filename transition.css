@@ -2,8 +2,12 @@
     width: 150px;
     height: 150px;
     border: 2px solid sienna;
+    background-color: rgb(227, 194, 150);
+    transition: width 2s ease, height 2s ease, transform 2s ;
 }
 
 .box:hover{
-    
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
 }
