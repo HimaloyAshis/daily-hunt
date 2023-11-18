@@ -5,16 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BounceBall Animation</title>
     <style>
-        .stage{
-            width: 200px;
-            height: 200px;
-            background-color: dodgerblue;
-        }
+        @keyframes slider {
+            0%{
+                background-color: chartreuse;
+                top: 0px;
+                left: 0px;
+            }
+            25%{
 
+                background-color: rgb(169, 87, 87);
+                top: 100px;
+            }
+
+            50%{
+                background-color: rgb(29, 169, 122);
+                top: 0px;
+            }
+
+            75%{
+
+                background-color: rgb(69, 65, 7);
+                top: 100px;
+
+            }
+
+            100%{
+                background-color: coral;
+                left: 400px;
+                top: 0px;
+            }
+            
+        }
+        
+        
+        
+        
+        .stage{
+            width: 500px;
+            height: 200px;
+            background-color: aquamarine;
+        }
+        
         .ball{
             width: 100px;
             height: 100px;
-            
+            border-radius: 50px;
+            position: relative;
+            background-color: darkgoldenrod;
+            animation: slider 2s ease-in-out .3s infinite alternate ;
+            animation-play-state: running;
+
         }
     </style>
 </head>
