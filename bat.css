@@ -1,13 +1,22 @@
 .field{
-
+   
     border: 2px solid lightcoral;
-    transition: '';
+
 }
 
-.bat:hover{
-    /* height: 500px; */
-    transform: rotate(60deg);
+.bat{
+    height: 300px;
+}
 
+.field:hover .bat{
+    /* height: 500px; */
+    transform: rotate(-50deg);
+    transform-origin: top right;
+
+}
+
+.bat{
+    transition: transform 0.6s ease;
 }
 
 .ball{
@@ -15,6 +24,13 @@
     height: 50px;
     background-color: #ab7d7d;
     border-radius: 25px;
+    position: relative;
+    left: 335px;
 }
 
 
+
+.field:hover .ball{
+    
+
+}
