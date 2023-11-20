@@ -1,0 +1,8 @@
+.holud{
+    width: 5rem;
+    height: 3rem;
+    color: rgb(21, 21, 8);
+    background-color: cadetblue;
+    border: 2px solid salmon;
+    border-radius: 1rem;
+}
