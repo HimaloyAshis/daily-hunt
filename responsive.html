@@ -14,6 +14,27 @@
         .tiger img{
             width: 100%;
         }
+
+        .container-card{
+            display: flex;
+        }
+
+        .container-card .split{
+            width: 50%;
+        }
+
+        .split img{
+            width: 100%;
+        }
+        @media screen and (max-width:576px )  {
+            .container-card{
+                flex-direction: column;
+            }
+
+            .container-card .split{
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
