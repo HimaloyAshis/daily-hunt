@@ -8,10 +8,9 @@ const loveThePeopleYouMiss =[{maa:'Aroti', Baba:'poritosh', Didi:'shipuP(durga d
 console.log(loveThePeopleYouMiss)
 
 
-let bithy = 0
 
 for (let bithy = 0; bithy < 9; bithy++) {
-    const element = array[bithy];
+    const element = bithy[0];
     console.log(element)
     
 }
