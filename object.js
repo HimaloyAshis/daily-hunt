@@ -9,8 +9,15 @@ console.log(loveThePeopleYouMiss)
 
 
 
+const myArray = ['kristen', 'natilePortman', '']
+
 for (let bithy = 0; bithy < 9; bithy++) {
-    const element = bithy[0];
+    const element = bithy[bithy];
     console.log(element)
+    
+}
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
     
 }
