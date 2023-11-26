@@ -2,10 +2,10 @@ const ok = [
     {ok:'ok', ami:'valo'}
 ]
 
-console.log(ok)
+// console.log(ok)
 
 const loveThePeopleYouMiss =[{maa:'Aroti', Baba:'poritosh', Didi:'shipuP(durga de)', vaidi:'sagor'}]
-console.log(loveThePeopleYouMiss)
+// console.log(loveThePeopleYouMiss)
 
 
 
@@ -13,11 +13,24 @@ const myArray = ['kristen', 'natilePortman', '']
 
 for (let bithy = 0; bithy < 9; bithy++) {
     const element = bithy[bithy];
-    console.log(element)
+    // console.log(element)
     
 }
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
     
+// }
+
+var LANGUAGE = 'JAVA'
+var language = 'javascript'
+
+function getLanguage(){
+    if(!language){
+        var language = LANGUAGE
+    }
+    
+    return language
 }
+
+console.log(`I love ${getLanguage()}`)
