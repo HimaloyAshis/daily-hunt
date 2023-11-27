@@ -1,8 +1,8 @@
-const ok = [
+const oks = [
     {ok:'ok', ami:'valo'}
 ]
 
-// console.log(ok)
+// console.log(oks)
 
 const loveThePeopleYouMiss =[{maa:'Aroti', Baba:'poritosh', Didi:'shipuP(durga de)', vaidi:'sagor'}]
 // console.log(loveThePeopleYouMiss)
@@ -33,4 +33,6 @@ function getLanguage(){
     return language
 }
 
-console.log(`I love ${getLanguage()}`)
+// console.log(`I love ${getLanguage()}`)
+
+
