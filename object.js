@@ -22,12 +22,12 @@ for (let bithy = 0; bithy < 9; bithy++) {
     
 // }
 
-var LANGUAGE = 'JAVA'
-var language = 'javascript'
+let LANGUAGE = 'JAVA'
+let language = 'javascript'
 
 function getLanguage(){
     if(!language){
-        var language = LANGUAGE
+        let language = LANGUAGE
     }
     
     return language
