@@ -33,6 +33,6 @@ function getLanguage(){
     return language
 }
 
-// console.log(`I love ${getLanguage()}`)
+console.log(`I love ${getLanguage()}`)
 
 
