@@ -33,6 +33,19 @@ function getLanguage(){
     return language
 }
 
-console.log(`I love ${getLanguage()}`)
+// console.log(`I love ${getLanguage()}`)
+
+function getInfo( object,year){
+    object.name='sumon'
+    year = 2023
+}
+
+const person = {name: "Rahim", year:2022}
+let year = 2000
+
+getInfo(person, year)
+
+console.log(person);
+console.log(year);
 
 
