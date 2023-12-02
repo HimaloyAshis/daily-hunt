@@ -26,7 +26,7 @@
     border-radius: 25px;
     position: relative;
     left: 335px;
-    transition: transform 1s ease-out .3s;
+    transition: transform 1s ease-out  .3s;
 }
 
 
