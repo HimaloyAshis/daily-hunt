@@ -45,7 +45,17 @@ let year = 2000
 
 getInfo(person, year)
 
-console.log(person);
-console.log(year);
+// console.log(person);
+// console.log(year);
 
 
+const numbers = [23, 27, 45, 56, 45, 34, 21, 122, 145, 224, 24, 18, 454,454, 345, 676, 656]
+
+for(let i = 0; i<numbers.length; i++){
+    const number = numbers[i]
+    if(number > 40){
+        // break
+        continue
+    }
+    console.log(number);
+}
