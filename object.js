@@ -60,7 +60,7 @@ for(let i = 0; i<numbers.length; i++){
     // console.log(number);
 }
 
-let text = "Hello World";
-let part = text.split(" ");
+let text = "Hello world, welcome to the universe.";
+let ok =text.includes("world");
 
-console.log(part);
+console.log(ok);
