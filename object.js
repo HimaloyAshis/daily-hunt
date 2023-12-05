@@ -57,5 +57,10 @@ for(let i = 0; i<numbers.length; i++){
         // break
         continue
     }
-    console.log(number);
+    // console.log(number);
 }
+
+let text = "Hello World";
+let part = text.split(" ");
+
+console.log(part);
