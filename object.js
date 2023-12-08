@@ -63,4 +63,23 @@ for(let i = 0; i<numbers.length; i++){
 let text = "Hello world, welcome to the universe.";
 let ok =text.includes("world");
 
-console.log(ok);
+// console.log(ok);
+
+
+let a = 4;
+let b = 0;
+
+let c = a / b;
+
+// console.log(c);
+
+let x = 123;
+x.toString();
+(123).toString();
+(100 + 23).toString();
+
+let y = (100 + 23).toString();
+
+
+// console.log(y);
+
