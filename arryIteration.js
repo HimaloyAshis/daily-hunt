@@ -11,8 +11,8 @@ const newArr =numbers.find(myFunc)
 // console.log(numbers)
 // console.log(newArr)
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.sort();
+const fruit= ["Banana", "Orange", "Apple", "Mango"];
+fruit.sort();
 // console.log(fruits)
 
 // Returns a random number:
@@ -59,3 +59,10 @@ if(isNaN(age)){
     console.log("ok");
 }
 
+// Create a Map
+const fruits = new Map();
+
+// Set Map Values
+fruits.set("apples", 500);
+fruits.set("bananas", 300);
+fruits.set("oranges", 200);
