@@ -51,6 +51,11 @@ const duplicateNum = num.filter((value, index, array)=>{
 
 // console.log(duplicateNum);
 
-const ab = 'false'
+const age = 18;
 
-console.log(ab);
+if(isNaN(age)){
+    console.log("not ok");
+}else{
+    console.log("ok");
+}
+
