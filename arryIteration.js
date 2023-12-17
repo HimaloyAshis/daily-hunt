@@ -1,4 +1,4 @@
-const numbers = [23, 3, 34, 563, 33, 45, 12, 66]
+const number = [23, 3, 34, 563, 33, 45, 12, 66]
 
 function myFunc(value , index, array){
     // console.log(val * 3);
@@ -6,7 +6,7 @@ function myFunc(value , index, array){
     return value > 2
 }
 
-const newArr =numbers.find(myFunc)
+const newArr =number.find(myFunc)
 
 // console.log(numbers)
 // console.log(newArr)
@@ -54,9 +54,9 @@ const duplicateNum = num.filter((value, index, array)=>{
 const age = 18;
 
 if(isNaN(age)){
-    console.log("not ok");
+    // console.log("not ok");
 }else{
-    console.log("ok");
+    // console.log("ok");
 }
 
 // Create a Map
@@ -66,3 +66,5 @@ const fruits = new Map();
 fruits.set("apples", 500);
 fruits.set("bananas", 300);
 fruits.set("oranges", 200);
+
+console.log(fruits);
