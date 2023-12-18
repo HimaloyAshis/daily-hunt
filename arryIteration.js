@@ -77,5 +77,5 @@ let a = [1, 3, 4];
 // console.log(a);
 
 const bit =(48).toString(2)
-console.log(bit);
+// console.log(bit);
 
