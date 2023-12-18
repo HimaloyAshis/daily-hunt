@@ -1,6 +1,6 @@
 const number = [23, 3, 34, 563, 33, 45, 12, 66]
 
-function myFunc(value , index, array){
+function myFunc(value , index , array ){
     // console.log(val * 3);
 
     return value > 2
@@ -67,4 +67,15 @@ fruits.set("apples", 500);
 fruits.set("bananas", 300);
 fruits.set("oranges", 200);
 
-console.log(fruits);
+// console.log(fruits);
+
+let a = [1, 3, 4];
+
+// 
+// console.log(a);
+
+// console.log(a);
+
+const bit =(48).toString(2)
+// console.log(bit);
+
