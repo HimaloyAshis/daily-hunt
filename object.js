@@ -82,4 +82,17 @@ let y = (100 + 23).toString();
 
 
 // console.log(y);
+try {
+    kdk
+} catch (error) {
+    // console.log(error.message);
+}
+ 
 
+let abc = "kmn acho?"
+
+console.dir(window);
+function abcd(){
+}
+
+abcd()

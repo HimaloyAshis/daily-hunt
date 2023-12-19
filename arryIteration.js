@@ -69,7 +69,7 @@ fruits.set("oranges", 200);
 
 // console.log(fruits);
 
-let a = [1, 3, 4];
+let ab = [1, 3, 4];
 
 // 
 // console.log(a);
@@ -77,5 +77,6 @@ let a = [1, 3, 4];
 // console.log(a);
 
 const bit =(48).toString(2)
-// console.log(bit);
+// console.log(bit); 
+
 
