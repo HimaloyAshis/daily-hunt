@@ -79,4 +79,15 @@ let ab = [1, 3, 4];
 const bit =(48).toString(2)
 // console.log(bit); 
 
+const ashu = "I love bangladesh";
+
+const abb = [12, 23, 34, 54, 43];
+
+const abc = ashu === abb;
+
+const as = ashu.length === abb.length;
+
+
+console.log(as);
+
 
