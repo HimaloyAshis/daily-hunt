@@ -7,7 +7,9 @@ const PixelDepth = document.getElementById("PixelDepth");
 
 
 
-width.innerHTML = "the window width is " + screen.width
-height.innerHTML = "the window height is " + screen.height
-availWidth.innerHTML = "the window height is " + screen.availWidth
-colorDepth.innerHTML = "the window height is " + screen.colorDepth
+width.innerHTML = "the window width is " + screen.width;
+height.innerHTML = "the window height is " + screen.height;
+availWidth.innerHTML = "the window height is " + screen.availWidth;
+colorDepth.innerHTML = "the window colorDepth is " + screen.colorDepth;
+PixelDepth.innerHTML = "the window pixelDepth is " + screen.pixelDepth;
+
